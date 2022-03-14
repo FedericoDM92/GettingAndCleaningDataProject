@@ -42,5 +42,5 @@ All start with character f in column’s name replaced by frequency
 All start with character t in column’s name replaced by time
 
 **Average of each variable for each activity and each subject**
-FinalData (180 rows, 88 columns) is created by sumarizing TidyData taking the means of each variable for each activity and each subject, after groupped by subject and activity.
-Export FinalData into FinalData.txt file.
+smallcleandata (180 rows, 88 columns) is created by sumarizing cleandata taking the means of each variable for each activity_code and each subject, after groupped by subject and activity_code.
+Export smallcleandata into smallcleandata.txt file.
