@@ -45,7 +45,6 @@ names(cleandata)<-gsub("tBody", "timebody", names(cleandata))
 names(cleandata)<-gsub("-mean()", "mean", names(cleandata), ignore.case = TRUE)
 names(cleandata)<-gsub("-std()", "STD", names(cleandata), ignore.case = TRUE)
 names(cleandata)<-gsub("-freq()", "frequency", names(cleandata), ignore.case = TRUE)
-names(cleandata)<-gsub("angle", "angle", names(cleandata))
 
 # Average of each variable for each activity and each subject
 smallcleandata <- cleandata %>%
